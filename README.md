@@ -25,7 +25,7 @@ pip install -r requirements.txt
 1) In the deck there are:
    1) For each `n` in 1, 2, ... , 12 there are `n` cards giving `n` points.
    2) One `0` giving `0` points
-   3) Three of each (can be used on any player, including yourself):
+   3) Three of each action cards (can be used on any player, including yourself):
       1) Freeze - make someone of your choice pass
       2) Flip 3 - make someone of your choice flip 3 cards
       3) Second chance - keep until busting, then discard with the repeating number card. Only one SC card at once is allowed, others are given away or discarded if everyone has SC card.
@@ -39,11 +39,9 @@ pip install -r requirements.txt
    2) Add all `+n` modifier card
    3) Double the score if you have `x2` 
 6) At the end of the round when at least one player reaches `200` points, the player with the most points wins.
+7) Being the only active player, you have to use all action on yourself.
 
-## Dev plan:
+## TODO
 
-1. [ ] Solo FULL without actions
-2. [ ] Solo MCTS without actions
-3. [ ] Multiplayer MCTS without actions
-4. [ ] Solo with actions
-5. [ ] Multiplayer with actions
+1) Full evaluation solo - `Rule 7` simplifies the game a lot. Probabilities could be calculated precisely.
+2) MCTS evaluation multiplayer
