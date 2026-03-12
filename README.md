@@ -22,7 +22,8 @@ pip install -r requirements.txt
 
 ## Dev plan:
 
-1. [ ] Solo MCTS without actions
-2. [ ] Multiplayer MCTS without actions
-3. [ ] Solo with actions
-4. [ ] Multiplayer with actions
+1. [ ] Solo FULL without actions
+2. [ ] Solo MCTS without actions
+3. [ ] Multiplayer MCTS without actions
+4. [ ] Solo with actions
+5. [ ] Multiplayer with actions
